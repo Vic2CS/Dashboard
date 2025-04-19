@@ -19,7 +19,7 @@ function ListGroup() {
             }
             key={item}
             onClick={() => {
-              setSelectedIndex(index);
+              setSelectedIndex(index); //test
             }}
           >
             {item}
